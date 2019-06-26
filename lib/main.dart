@@ -1,3 +1,4 @@
+import 'package:et_chat/widgets/viewProfile.dart';
 import 'package:flutter/material.dart';
 import './pages/login.dart';
 import './pages/app.dart';
@@ -43,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         '/': (BuildContext context) => LoginPage(),
         '/etapp': (BuildContext context) => ETPage(),
         '/signup': (BuildContext context) => SignupPage(),
+        '/viewprofile': (BuildContext context) => ViewProfile(),
       },
       onUnknownRoute: (RouteSettings settings) {
         return MaterialPageRoute(
